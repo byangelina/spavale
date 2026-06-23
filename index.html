@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serena Spa · Bienestar Femenino</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <a href="#inicio" class="nav-logo">Serena Spa</a>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotras">Nosotras</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn-nav">Reservar</a>
+  </nav>
+
+
+
+  <!-- ── HERO CARRUSEL ── -->
+<section id="inicio" class="hero-carrusel">
+
+  <!-- Slide 1 -->
+  <div class="slide activa" style="background-image: url('img/hero1.png')">
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="eyebrow">Spa · Bienestar Femenino · Santiago</span>
+      <h1>Un lugar donde<br><em>tú primero</em></h1>
+      <p class="hero-sub">
+        Masajes, manicura, peluquería y tratamientos faciales en un espacio creado para tu descanso, tu confianza y tu salud emocional.
+      </p>
+      <div class="hero-btns">
+        <a href="#contacto" class="btn-primary">Reservar hora</a>
+        <a href="#servicios" class="btn-outline">Ver servicios</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide" style="background-image: url('img/hero2.png')">
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="eyebrow">Salud emocional</span>
+      <h1>Cuidar tu mente<br><em>también es belleza</em></h1>
+      <p class="hero-sub">
+        Más que un spa: un espacio de contención y escucha. Acompañamos tu bienestar psicológico con un trato cálido, humano y sin juicios.
+      </p>
+      <div class="hero-btns">
+        <a href="#nosotras" class="btn-primary">Conoce nuestra misión</a>
+        <a href="#servicios" class="btn-outline">Ver servicios</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" style="background-image: url('img/hero3.png')">
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="eyebrow">Test gratuito</span>
+      <h1>Conoce tu nivel<br><em>de bienestar</em></h1>
+      <p class="hero-sub">
+        Agenda una evaluación gratuita de bienestar emocional con nuestras profesionales. Sin costo, sin compromiso: solo un primer paso para cuidarte.
+      </p>
+      <div class="hero-btns">
+        <a href="#contacto" class="btn-primary">Solicitar test gratis</a>
+        <a href="#faq" class="btn-outline">Más información</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flechas -->
+  <button class="carrusel-flecha flecha-izq" aria-label="Anterior">‹</button>
+  <button class="carrusel-flecha flecha-der" aria-label="Siguiente">›</button>
+
+  <!-- Puntos indicadores -->
+  <div class="carrusel-puntos">
+    <button class="punto activo" data-slide="0" aria-label="Slide 1"></button>
+    <button class="punto" data-slide="1" aria-label="Slide 2"></button>
+    <button class="punto" data-slide="2" aria-label="Slide 3"></button>
+  </div>
+
+</section>
+
+
+  <!-- ── NOSOTRAS ── -->
+  <section id="nosotras" class="section-verde-osc">
+    <div class="nosotras-grid">
+      <div>
+        <span class="eyebrow color-verde">Nuestra misión</span>
+        <h2 class="color-blanco">Un espacio de <em class="color-verde">confianza</em> y terapia emocional</h2>
+        <p class="texto-suave">
+          Creemos que el cuidado personal va más allá de la estética. En Serena Spa, cada visita es una pausa: un momento donde puedes ser tú misma, sin presiones ni juicios.
+        </p>
+        <p class="texto-suave">
+          Nuestro ambiente fue diseñado para activar el sistema nervioso parasimpático — la calma real. Música, aromas, texturas y una atención humana y cálida que te recuerda que mereces este tiempo.
+        </p>
+        <p class="texto-ods-nota">
+          Alineadas con el ODS 3: Salud y Bienestar, integramos el bienestar emocional como parte del servicio.
+        </p>
+      </div>
+      <div class="diferenciadores">
+        <div class="dif-item"><span> </span><p>Atención dedicada, solo para ti</p></div>
+        <div class="dif-item"><span> </span><p>Productos naturales y certificados</p></div>
+        <div class="dif-item"><span> </span><p>Ambiente de terapia emocional</p></div>
+        <div class="dif-item"><span> </span><p>Escucha activa y sin juicios</p></div>
+        <div class="dif-item"><span> </span><p>Tu tiempo, respetado siempre</p></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ── GALERÍA ── -->
+  <section id="galeria" class="section-crema">
+    <span class="eyebrow color-cacao">Nuestros espacios</span>
+    <h2>Un lugar <em>para sentirte</em></h2>
+
+    <div class="galeria-grid">
+
+      <div class="gal-item gal-grande" style="background-image: url('img/gal-masajes.png')">
+        <span class="gal-label">Sala de masajes</span>
+      </div>
+
+      <div class="gal-item" style="background-image: url('img/gal-faciales.png')">
+        <span class="gal-label">Tratamientos faciales</span>
+      </div>
+
+      <div class="gal-item" style="background-image: url('img/gal-manicura.png')">
+        <span class="gal-label">Manicura</span>
+      </div>
+
+      <div class="gal-item" style="background-image: url('img/gal-peluqueria.png')">
+        <span class="gal-label">Peluquería</span>
+      </div>
+
+      <div class="gal-item" style="background-image: url('img/gal-ambiente.png')">
+        <span class="gal-label">Ambiente Serena</span>
+      </div>
+
+      <div class="gal-item" style="background-image: url('img/gal-rituales.png')">
+        <span class="gal-label">Rituales</span>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ── FAQ ── -->
+  <section id="faq" class="section-blanco">
+    <span class="eyebrow color-verde">Preguntas frecuentes</span>
+    <h2>Resolvemos tus <em>dudas</em></h2>
+    <div class="faq-wrap">
+
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span>¿Necesito evaluación previa?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-respuesta">
+          Para servicios capilares sí realizamos una evaluación personalizada. Para masajes y faciales, nuestra especialista te asesora al inicio de la sesión.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span>¿Puedo combinar servicios en una misma visita?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-respuesta">
+          Sí. Muchos de nuestros tratamientos se pueden combinar. Te recomendamos agendar con anticipación para reservar el tiempo necesario.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span>¿Cuánto dura cada sesión?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-respuesta">
+          Depende del servicio: manicura entre 45–90 min, masajes entre 60–90 min, peluquería entre 1–3 hrs y faciales entre 60–75 min.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span>¿Qué productos usan?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-respuesta">
+          Trabajamos con marcas profesionales con certificación dermatológica, libres de ingredientes agresivos y con política ambiental responsable.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-btn">
+          <span>¿Cómo reservo mi hora?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-respuesta">
+          Puedes reservar por WhatsApp, desde este sitio web o llamando directamente. Confirmamos disponibilidad y te enviamos recordatorio.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACTO ── -->
+  <section id="contacto" class="section-crema">
+    <div class="contacto-grid">
+
+      <div>
+        <span class="eyebrow color-cacao">Reserva tu hora</span>
+        <h2>Empieza tu <em>experiencia</em></h2>
+        <div class="contacto-info">
+          <div class="info-item">
+            <span> </span>
+            <div>
+              <strong>Dirección</strong>
+              <p>Av. Matucana 466, Santiago, Región Metropolitana</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span> </span>
+            <div>
+              <strong>Horario</strong>
+              <p>Lunes a viernes: 9:00 – 20:00<br>Sábado: 9:00 – 17:00</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span> </span>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>+56 9 2030 1634</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span> </span>
+            <div>
+              <strong>Email</strong>
+              <p>valery.catalina14@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" placeholder="Tu nombre" />
+          </div>
+          <div class="form-group">
+            <label>Teléfono</label>
+            <input type="tel" placeholder="+56 9 ..." />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Servicio</label>
+          <select>
+            <option value="">Selecciona un servicio</option>
+            <option>Manicura / Pedicura</option>
+            <option>Masaje relajante</option>
+            <option>Masaje descontracturante</option>
+            <option>Peluquería</option>
+            <option>Tratamiento facial</option>
+            <option>Combo (varios servicios)</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Fecha</label>
+            <input type="date" />
+          </div>
+          <div class="form-group">
+            <label>Hora preferida</label>
+            <select>
+              <option>9:00</option><option>10:00</option><option>11:00</option>
+              <option>12:00</option><option>14:00</option><option>15:00</option>
+              <option>16:00</option><option>17:00</option><option>18:00</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Mensaje (opcional)</label>
+          <textarea placeholder="¿Algo especial que debamos saber?"></textarea>
+        </div>
+        <button class="btn-submit">Solicitar hora</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">Serena Spa</div>
+        <p class="footer-tagline">Un espacio de bienestar femenino en Santiago. Porque cuidarte es un acto de amor propio.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Servicios</div>
+        <a href="#servicios">Manicura</a>
+        <a href="#servicios">Masajes</a>
+        <a href="#servicios">Peluquería</a>
+        <a href="#servicios">Faciales</a>
+      </div>
+      <div>
+        <div class="footer-col-title">Spa</div>
+        <a href="#nosotras">Nuestra misión</a>
+        <a href="#galeria">Galería</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Reservar hora</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Serena Spa · Santiago, Chile</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
